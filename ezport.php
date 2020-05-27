@@ -1,12 +1,18 @@
 <?php
 	/**
 	 *	Plugin Name: EZPort
-	 *	Description: Sebuah plugin WooCommerce sederhana untuk melakukan export pada order-order yang ada
-	 *	Author: Group E PBWL UNPAR
-	 *  Version: 1.0
-	 *  Requires at least: 5.2
-	 *  Requires PHP:      7.2
-	 *  Author URI:        https://github.com/Namchee/pbwl-ezport
+	 *  Plugin URI: https://github.com/ifunpar/EZPort
+	 *	Description: Exports WooCommerce orders into CSV, XLX, and XLSX complete with their meta data.
+	 *  Version: 1.0.0
+	 *	Author: Pascal and students of Informatika UNPAR
+	 *  Author URI: https://github.com/ifunpar
+	 *	Developer: Pascal and students of Informatika UNPAR
+	 *  Developer URI: https://github.com/ifunpar
+	 *  Text Domain: ezport
+	 * 
+     *  WC requires at least: 4.0
+     *  WC tested up to: 4.1
+     *
 	 *  License: GPL v2 or later
  	 *  License URI: https://www.gnu.org/licenses/gpl-2.0.html
 	 */

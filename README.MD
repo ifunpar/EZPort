@@ -1,34 +1,32 @@
 # EZPort
 
-Sebuah plugin Wordpress sederhana yang berfungsi untuk melakukan export pada order-order yang ada pada WooCommerce.
+EZPort exports WooCommerce orders into CSV, XLX, and XLSX complete with their meta data.
 
-Namanya memang alay.
+## Full Description
 
-## Fitur
+Some WooCommerce plugins add functionality to order items, that additional
+information for each item ordered is recorded. In most cases, it will be stored
+as "meta data". These information can be viewed from the admin page, but most
+export plugins ignores this information. Hence, you will get the exported file
+without this information.
 
-1. Export bersama dengan _metadata_ produk
-2. Mampu menghasilkan _output_ dalam format `.csv`, `.xls`, `.xlsx`
+EZPort helps you to get all information CSV/XLS/XLSX.
 
-## Instalasi
+One example of plugin that retrieves additional information is [Woo Custom
+Product Addons](https://wordpress.org/plugins/woo-custom-product-addons/).
+Note that the author of this plugin is not affiliated to the author of Woo
+Custom Product Addons.
 
-### Requirements
+## Project History
 
-1. PHP ^7.x.x
-2. Wordpress ^5.x.x
-3. Composer ^1.10.x
+This project was made by a group of students for their _Pemrograman Berbasis
+Web Lanjut_ (Advanced Web-based Programming) class final project, and continued
+by their teacher @pascalalfadian of @ifunpar for long term maintenance and
+publication.
 
-### Langkah Instalasi
+The original main contributors are:
 
-1. _Copy_ seluruh _file_ pada direktori plugin Wordpress
-2. Jalankan `composer install`
-3. Aktifkan plugin melalui admin panel Wordpres
+* Cristopher - 2017730017 - (@Namchee)
+* Naofal Leo Agusta - 2016730056
+* Gerry Fernando Lesmana - 2016730050
 
-## Kontributor
-
-1. Cristopher - 2017730017 - [GitHub]()
-2. Naofal Leo Agusta - 2016730056
-3. Gerry Fernando Lesmana - 2016730050
-
-## Lisensi
-
-Plugin ini dilisensikan menggunakan [GPLv2](LICENSE)
