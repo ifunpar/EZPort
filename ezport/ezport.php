@@ -16,8 +16,8 @@
 	 *  License: GPL v2 or later
  	 *  License URI: https://www.gnu.org/licenses/gpl-2.0.html
 	 */
-	require_once 'src/ezport-service.php';
-	require_once 'src/ezport-io.php';
+	require_once 'includes/ezport-service.php';
+	require_once 'includes/ezport-io.php';
 
 	/**
 	 * Prevent direct access without WP

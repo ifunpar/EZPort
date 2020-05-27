@@ -17,6 +17,14 @@ Product Addons](https://wordpress.org/plugins/woo-custom-product-addons/).
 Note that the author of this plugin is not affiliated to the author of Woo
 Custom Product Addons.
 
+## Development Setup
+
+You need Composer (https://getcomposer.org)
+
+1. Clone this repository.
+2. Go to `ezport/` directory and `composer install`.
+3. Done.
+
 ## Project History
 
 This project was made by a group of students for their _Pemrograman Berbasis
